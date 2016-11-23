@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4.0dip" >
+
+    <com.cheyitianxia.bletools.MyScrollView
+        android:id="@+id/viewflipper_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ViewFlipper
+                android:id="@+id/mViewFlipper_vf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dip"
+                        android:background="@drawable/default_pic_1"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dip"
+                        android:background="@drawable/default_pic_2"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dip"
+                        android:background="@drawable/default_pic_3"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dip"
+                        android:background="@drawable/default_pic_4"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
+            </ViewFlipper>
+
+            <LinearLayout
+                android:id="@+id/home_data_radio_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mViewFlipper_vf" >
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/home_data_bar" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.cheyitianxia.bletools.MyScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relative_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:id="@+id/relative3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            
+            <LinearLayout
+                android:id="@+id/L1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_taobao"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/shape"
+                    android:text="@string/taobao"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_ali"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/shape"
+                    android:text="@string/ali"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_weidian"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/shape"
+                    android:text="@string/weidian" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_jingdong"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:background="@drawable/shape"
+                    android:text="@string/jingdong" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

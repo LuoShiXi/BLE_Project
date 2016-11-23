@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mt.mtbletools"
+    android:versionCode="20"
+    android:versionName="2.1" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.cheyitianxia.bletools.MTTBleToolsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="44858f5b15cdca7e088e6d4462b6e3ac" />
+
+        <activity
+            android:name="com.cheyitianxia.bletools.MTSeriTalkActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cheyitianxia.bletools.BaseBleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+        <activity
+            android:name="com.mt.mtbletools.MTSeriTalkActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        -->
+        <activity android:name="com.carCloth.shop.CarClothShop" >
+        </activity>
+        <activity android:name="com.carCloth.onoff.CarClothOn" >
+        </activity>
+        <activity android:name="com.carCloth.onoff.CarClothOff" >
+        </activity>
+        <activity android:name="com.activity.location.AssistantLocation" >
+        </activity>
+        <activity android:name="com.carCloth.shop.CarClothWebView" >
+        </activity>
+        <activity
+            android:name="com.cheyitianxia.bletools.TestDeviceList"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

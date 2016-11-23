@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nocolor">#00000000</color>
+    <color name="bkc">#F0F0F0</color>
+    <color name="separate_line">#A0A0A0</color>
+    <color name="body_bk">#FFFFFF</color>
+    
+    <color name="nav_bk">#FFFFFF</color>
+    
+    <color name="tab_bk">#169ADA</color>
+    <color name="tab_text_unclick">#000000</color>
+    <color name="tab_text_click">#FF0000</color>
+    
+    <color name="nav_btn_unclick">#00000000</color>
+    <color name="nav_btn_click">#7D5E0C</color>
+    
+    <color name="nav_btn_text">#FBBD18</color>
+    
+    <color name="deviceconst_text">#A0A0A0</color>
+    <color name="devicechangeable_text">#0000FF</color>
+    
+    <color name="revicedata_bk">#FBBD18</color>
+    <color name="revicedata_text">#FFFFFF</color>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/devicefmt"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/devicename_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:singleLine="true"
+            android:text="MTBeacon"
+            android:textColor="@color/deviceconst_text"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/device_rssi_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="rssi:-45dB"
+            android:textColor="@color/devicechangeable_text"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/battery_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/battery"
+            android:textColor="@color/devicechangeable_text"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/device_mac_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="mac"
+        android:textColor="@color/deviceconst_text"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/ibeacon_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/settype_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/devicechangeable_text"
+                android:textSize="15sp"
+                android:text="@string/workstatues"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/device_major_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="major"
+                android:textColor="@color/devicechangeable_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/device_minor_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="minor"
+                android:textColor="@color/devicechangeable_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/device_measurepower_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="txpower"
+                android:textColor="@color/devicechangeable_text"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/device_uuid_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="uuid"
+            android:textColor="@color/devicechangeable_text"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

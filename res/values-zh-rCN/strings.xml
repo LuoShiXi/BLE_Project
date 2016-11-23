@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">车衣天下</string>
+    <string name="taobao">淘宝</string>
+    <string name="ali">阿里</string>
+    <string name="jingdong">京东</string>
+    <string name="weidian">微店</string>
+    <string name="scan">扫描</string>
+    <string name="func">功能</string>
+    <string name="about">关于</string>
+    <string name="scanresult">扫描结果</string>
+    <string name="cfg">配置</string>
+    <string name="workstatues">部署方式</string>
+    <string name="yourandroidversionistoolow">你out了，系统竟然还没有到android 4.3</string>
+    <string name="rssi">Rssi: </string>
+    <string name="db">db</string>
+    <string name="mac">Mac: </string>
+    <string name="battery">电量: </string>
+    <string name="percent">%</string>
+    <string name="major">major: </string>
+    <string name="minor">minor: </string>
+    <string name="measur">Measur: </string>
+    <string name="uuid">UUID: </string>
+    <string name="setlv">部署等级: </string>
+    <string name="back">返回</string>
+    <string name="advdata">广播数据</string>
+    <string name="analysisadvdata">分析广播数据</string>
+    <string name="connect">连接</string>
+    <string name="send">发送</string>
+    <string name="connected">已连接</string>
+    <string name="disconnect">已断开</string>
+    <string name="clear">清空</string>
+    <string name="data">数据</string>
+    <string name="cmd">命令</string>
+    <string name="datamodel">数据模式</string>
+    <string name="cmdmodel">命令模式</string>
+    <string name="modify">修改</string>
+    <string name="commonparameters">常用参数</string>
+    <string name="allparameters">所有参数</string>
+    <string name="disall">显示所有</string>
+    <string name="major_0_65535">major(0-65535): </string>
+    <string name="minor_0_65535">minor(0-65535): </string>
+    <string name="measur_0_99">Measur(0-99): </string>
+    <string name="sendpower_abc">发射功率(A(最小),B,C)</string>
+    <string name="sendhz_100_2000">广播频率(100-2000):单位ms</string>
+    <string name="newpwd">设置新密码:(6位)勾了不设置则为取消密码</string>
+    <string name="deviceinfreadonly">设备信息(只读):</string>
+    <string name="versionnum">固件版本: </string>
+    <string name="setundeverlop">临时部署(断电后可恢复): </string>
+    <string name="beaconprivateparams">私有参数</string>
+    <string name="beaconid">beacon编号</string>
+    <string name="broadcastweight">广播比重(0-10):</string>
+    <string name="beaconpublicparams">共有参数</string>
+    <string name="sendpower_abcd">发射功率(A(最小),B,C,D)</string>
+    <string name="smartuser">智能用户</string>
+    <string name="mtbeaconuser">馒头Beacon用户</string>
+    <string name="mtseriuser">馒头模块用户</string>
+    <string name="mtwxuser">馒头微信模块用户</string>
+    <string name="bledevelopuser">BLE开发者</string>
+    <string name="appcfg">用户配置</string>
+    <string name="oad">OAD升级</string>
+    <string name="listen">监听</string>
+    <string name="unlisten">不监听</string>
+    <string name="pwd">密码</string>
+    <string name="wxappid">appID</string>
+    <string name="wxappsecret">appsecret</string>
+	<string name="wxcfg">微信配置</string>
+	<string name="registertocloud">注册设备到云端</string>
+	<string name="crypt">加密</string>
+	<string name="connectoutapp">退出公众号自动连接</string>
+	<string name="productid">product id</string>
+	
+	<string name="enable">使能</string>
+	<string name="disable">禁止</string>
+	
+	<string name="datas">数据:</string>
+	
+	<string name="dismiss">隐藏</string>
+	
+	<string name="read">读</string>
+	
+	<string name="usertype">用户类型</string>
+	
+	<string name="version">版本号</string>
+	<string name="company">深圳市馒头科技有限公司</string>
+	<string name="addr">地址：深圳市宝安区石岩街道\n塘头路口宏发科技园H2栋2楼</string>
+	<string name="web">官网：http://www.mantoukeji.cn/</string>
+	<string name="tel">销售TEL：18823335955</string>
+	<string name="tecsupport">技术QQ：446876407</string>
+	<string name="buy">直接购买</string>
+</resources>
